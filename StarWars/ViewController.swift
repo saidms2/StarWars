@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         }
         
         let person = Person(name: "jean", height:188)
-        //let person2 = Person("jean")
+        let person2 = Person("jean")
 
         //print (person)
         print (person.getName())
@@ -49,7 +49,9 @@ class ViewController: UIViewController {
         heightLabel.text = "\(person.height)"
         hairColorLabel.text = person.hairColor.rawValue
         
-            }
+        print (person2.getName())
+        
+        }
     
 }
 
